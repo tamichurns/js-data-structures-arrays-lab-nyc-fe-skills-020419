@@ -9,7 +9,7 @@ function destructivelyPrependDriver(name) {
 }
 
 function destructivelyRemoveLastDriver(name) {
-  driver.pop(name)
+  drivers.pop(name)
 }
 
 
