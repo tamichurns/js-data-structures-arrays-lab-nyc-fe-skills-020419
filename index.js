@@ -23,9 +23,9 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
-  const driversCopy = drivers.slice() 
-  driversCopy.pop(name)
-  return(driversCopy)
+  const driversCopy2 = drivers.slice() 
+  driversCopy2.pop(name)
+  return(driversCopy2)
 }
 
 
