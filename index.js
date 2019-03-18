@@ -16,7 +16,7 @@ function destructivelyRemoveFirstDriver(name) {
   drivers.shift(name)
 }
 
-let driversCopy = drivers.slice() 
+const driversCopy = drivers.slice() 
 
 function appendDriver(name) {
   drivers.splice('Broom')
