@@ -23,6 +23,7 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
+  const driversCopy = drivers.slice() 
   driversCopy.pop(name)
   return(driversCopy)
 }
