@@ -28,6 +28,12 @@ function prependDriver(name) {
   return(driversCopy2)
 }
 
+function prependDriver(name) {
+  const driversCopy3 = drivers.slice() 
+  driversCopy3.unshift(name)
+  return(driversCopy3)
+}
+
 
 
 
