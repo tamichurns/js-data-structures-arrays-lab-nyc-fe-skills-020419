@@ -23,7 +23,7 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
-  driversCopy.push(name)
+  driversCopy.pop(name)
   return(driversCopy)
 }
 
