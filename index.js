@@ -16,14 +16,12 @@ function destructivelyRemoveFirstDriver(name) {
   drivers.shift(name)
 }
 
-// const driversCopy = drivers.slice() 
-
-// function appendDriver(name) {
-//   drivers.splice('Broom')
-// }
+const driversCopy = drivers.slice() 
 
 function appendDriver(name) {
-  return drivers.slice('Broom')
+  drivers.splice('Broom')
 }
+
+
 
 
