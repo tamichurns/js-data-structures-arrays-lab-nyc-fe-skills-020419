@@ -30,7 +30,7 @@ function prependDriver(name) {
 
 function prependDriver(name) {
   const driversCopy3 = drivers.slice() 
-  driversCopy3.unshift(name)
+  driversCopy3.pop(name)
   return(driversCopy3)
 }
 
